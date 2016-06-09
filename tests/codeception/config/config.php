@@ -15,7 +15,7 @@ return [
     'components' => [
         'db' => [
             'class' => '\yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=rgknotifications_test',
+            'dsn' => 'mysql:host=yii2-notifications;dbname=rgknotifications_test',
             'username' => 'rgk',
             'password' => 'rgk12345',
             'charset' => 'utf8',

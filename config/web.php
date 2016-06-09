@@ -45,6 +45,14 @@ $config = [
             'rules' => [
             ],
         ],
+        'authManager' => [
+            'class' => 'yii\rbac\DbManager',
+            'cache' => 'cache' //Enable caching
+        ],
+
+        'notificationManager' => [
+            'class' => 'app\models\notifications\NotificationFabric',
+        ],
     ],
     'params' => $params,
 ];
